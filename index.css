@@ -1,0 +1,53 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background: rgb(68,47,105);
+    background: radial-gradient(circle, rgba(68,47,105,0.8772759103641457) 25%, rgba(19,9,9,1) 100%);
+}
+@font-face {
+    font-family: logos;
+    src: url(/font/Logos.ttf) format("opentype");
+}
+@font-face {
+    font-family: texto;
+    src: url(/font/texto.ttf) format("opentype");
+}
+.container {  
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 150px 300px 300px 150px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "TOP TOP TOP TOP TOP"
+    "Menu MAIN MAIN MAIN MAIN"
+    "Menu MAIN MAIN MAIN MAIN"
+    "FOOTER FOOTER FOOTER FOOTER FOOTER";
+}
+
+.TOP { 
+    grid-area: TOP; 
+    border: solid;
+}
+#title {
+font-family: logos;
+text-align: center;
+font-size: 80px;
+margin-top: 10px;
+}
+
+
+.Menu { 
+    grid-area: Menu; 
+    border: solid;
+}
+.MAIN { 
+    grid-area: MAIN;
+    border: solid;
+}
+.FOOTER { 
+    grid-area: FOOTER; 
+    border: solid;
+}

@@ -1,0 +1,9 @@
+Ropas: Polos, camisas de bolos, camisa oversize, sudaderas, accesorios (gorras), etc...
+
+Hacer parte diferentes Ropas
+
+Hacer parte destacados
+
+FOOTER = rrss + Contacto
+
+Responsive
